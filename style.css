@@ -47,3 +47,102 @@ body {
     color: #64748b;
     line-height: 1.6;
 }
+
+
+/* Form groups */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #334155;
+}
+
+/* Input fields and textarea */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 13px 15px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-family: inherit;
+
+    outline: none;
+    transition: border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Textarea */
+.form-group textarea {
+    resize: vertical;
+    min-height: 130px;
+}
+
+/* Focus effects */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+/* Placeholder styling */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #94a3b8;
+}
+
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 14px;
+
+    background: #6366f1;
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background 0.3s ease,
+                transform 0.2s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background: #4f46e5;
+}
+
+/* Click effect */
+button:active {
+    transform: scale(0.98);
+}
+
+/* Success message */
+#successMessage {
+    margin-top: 15px;
+    text-align: center;
+    color: #16a34a;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Error messages */
+.error-message {
+    color: #dc2626;
+    font-size: 12px;
+    margin-top: 5px;
+}
