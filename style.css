@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     background: #f1f5f9;
-    color: #1e293b;
+    color: #558a11;
 }
 
 /* Main container */
@@ -40,11 +40,11 @@ body {
 .form-header h1 {
     font-size: 30px;
     margin-bottom: 10px;
-    color: #1e293b;
+    color: #558a11;
 }
 
 .form-header p {
-    color: #64748b;
+    color: #7a8b64;
     line-height: 1.6;
 }
 
@@ -61,7 +61,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 8px;
-    color: #334155;
+    color: #558a11;
 }
 
 /* Input fields and textarea */
@@ -90,14 +90,14 @@ body {
 /* Focus effects */
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #6366f1;
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+    border-color: #558a11;
+    box-shadow: 0 0 0 3px rgba(132, 241, 99, 0.12);
 }
 
 /* Placeholder styling */
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-    color: #94a3b8;
+    color: #9fb894;
 }
 
 
@@ -106,7 +106,7 @@ button {
     width: 100%;
     padding: 14px;
 
-    background: #6366f1;
+    background: #558a11;
     color: white;
 
     border: none;
